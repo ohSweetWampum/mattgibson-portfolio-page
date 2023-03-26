@@ -73,4 +73,7 @@ a {
 footer {
     color: var(--footer-tcolor);
     background-color: var(--footer-bcolor);
+    
+    justify-content: flex-start;
+
 }
