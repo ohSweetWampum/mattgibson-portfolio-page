@@ -1,16 +1,22 @@
 :root {
+    --body-font:  Courier, Rockwell, Cambria, cochin; 
     --body-bcolor: aqua;
     --header-bcolor: beige;
-    --main-bcolor: violet;
+    --header-tcolor: black;
+    --navbar-tcolor: pink;
     --headshot-shadow: light purple;
+    --main-tcolor: blue;
+    --main-bcolor: violet;
     --project-shadow: light red;
-    
+    --footer-bcolor: green;
+    --footer-tcolor: red;
+   
 
 }
 
 * {
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--body-font);
     padding: 0;
     margin: 0;
 }
@@ -24,6 +30,7 @@ header {
     align-items: flex-end;
     justify-content: space-between;
     font-size: 40px;
+    color: var(--header-tcolor);
  }
  
  li {
@@ -31,7 +38,7 @@ header {
  }
 
  .header {
-    background-color: var(--header-bcolor)
+    background-color: var(--header-bcolor);
     height: 115px;
 }
 
@@ -54,5 +61,16 @@ header {
 
 main {
     background-color: var(--main-bcolor);
+    color: var(--main-tcolor);
 }
 
+a {
+    color: var(--navbar-tcolor);
+    
+
+}
+
+footer {
+    color: var(--footer-tcolor);
+    background-color: var(--footer-bcolor);
+}
