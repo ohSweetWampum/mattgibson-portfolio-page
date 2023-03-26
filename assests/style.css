@@ -1,9 +1,22 @@
+:root {
+    --body-bcolor: aqua;
+    --header-bcolor: beige;
+    --main-bcolor: violet;
+    --headshot-shadow: light purple;
+    --project-shadow: light red;
+    
+
+}
+
 * {
+    box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
 }
 
 body{
-    background-color: aqua;
+    background-color: var(--body-bcolor)
 }
 
 header {
@@ -18,13 +31,28 @@ header {
  }
 
  .header {
-    background-color: burlywood;
+    background-color: var(--header-bcolor)
     height: 115px;
 }
 
-figure {
-    display: flex;
+#headshot-container img {
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    box-shadow: 100% var(--headshot-shadow)
+    
     
 
 }
-  
+#headshot-container {
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+ 
+   
+}
+
+main {
+    background-color: var(--main-bcolor);
+}
+
