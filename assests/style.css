@@ -1,24 +1,30 @@
-:root {
-    --project-color: black;
-    --header-color: Black;
-}
-
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 body{
     background-color: aqua;
 }
+
 header {
-
-    display: inline-block;
-
-}
-}
- header nav ul li {
-    display: inline-block;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 40px;
+ }
+ 
+ li {
+    display: inline;
  }
 
- .project-cards {
-    display: ;
- }
+ .header {
+    background-color: burlywood;
+    height: 115px;
+}
+
+figure {
+    display: flex;
+    
+
+}
+  
