@@ -59,17 +59,30 @@ header {
    
 }
 
-.project-cards{
-  
-
+main {
+   
 }
 
 
-#featuredproject img {
+
+#flex-parent-main img {
     width: 800px;
 }
 
+#flex-parent-main {
+    display: flex;
+    justify-content: center;
 
+}
+
+#flex-child-main {
+
+}
+
+#featured-project {
+    display: inline-flex
+
+}
 
 
 
@@ -77,9 +90,15 @@ header {
 /* rest of the pcards area */
 
 .contains-all-pcards {
+    display: flex;
+    flex-direction: column;
+
+
+
 
 }
 .container-for-contents-of-each-pcard{
+
 
 }
 .img-of-product {
