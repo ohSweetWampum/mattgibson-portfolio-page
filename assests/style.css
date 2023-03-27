@@ -64,6 +64,9 @@ main {
     color: var(--main-tcolor);
 }
 
+p {
+    width: 30%;
+}
 a {
     color: var(--navbar-tcolor);
     
