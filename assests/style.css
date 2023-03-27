@@ -73,7 +73,8 @@ a {
 footer {
     color: var(--footer-tcolor);
     background-color: var(--footer-bcolor);
-    
-    justify-content: flex-start;
-
+    display: flex;
+    font-size: 40px;
+   
 }
+
