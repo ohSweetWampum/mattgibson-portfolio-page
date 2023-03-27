@@ -42,7 +42,18 @@ header {
     height: 115px;
 }
 
-#headshot-container img {
+
+#hs-and-about-p{
+display: flex;
+flex-direction: column;
+
+
+
+}
+section {
+    margin-top: 40px;
+}
+.headshot-containers img {
     width: 30%;
     height: 30%;
     border-radius: 100%;
@@ -51,10 +62,12 @@ header {
     
 
 }
-#headshot-container {
+.headshot-containers {
     display:flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    font-size: 40px;
+
  
    
 }
@@ -62,31 +75,6 @@ header {
 main {
    
 }
-
-
-
-#flex-parent-main img {
-    width: 800px;
-}
-
-#flex-parent-main {
-    display: flex;
-    justify-content: center;
-
-}
-
-#flex-child-main {
-
-}
-
-#featured-project {
-    display: inline-flex
-
-}
-
-
-
-
 /* rest of the pcards area */
 
 .contains-all-pcards {
@@ -138,7 +126,7 @@ main {
 }
 
 p {
-    width: 30%;
+    width: 97%;
 }
 a {
     color: var(--navbar-tcolor);
@@ -150,7 +138,10 @@ footer {
     color: var(--footer-tcolor);
     background-color: var(--footer-bcolor);
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 40px;
+    height: 115px;
    
 }
 
