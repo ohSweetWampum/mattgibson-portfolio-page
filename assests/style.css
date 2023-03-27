@@ -59,9 +59,63 @@ header {
    
 }
 
+.project-cards{
+  
+
+}
+
+
+#featuredproject img {
+    width: 800px;
+}
+
+
+
+
+
+
+/* rest of the pcards area */
+
+.contains-all-pcards {
+
+}
+.container-for-contents-of-each-pcard{
+
+}
+.img-of-product {
+
+}
+.pcard-header{
+
+}
+
+#project1 img{
+    width: 400px;
+
+
+}
+#project2 img{
+    width: 400px;
+
+
+}
+#project3 img{
+    width: 400px;
+
+
+}
+#project4 img{
+    width: 400px;
+
+
+}
+
+
 main {
     background-color: var(--main-bcolor);
     color: var(--main-tcolor);
+    display: flex;
+
 }
 
 p {
