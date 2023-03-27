@@ -42,31 +42,25 @@ header {
     height: 115px;
 }
 
-
-#hs-and-about-p{
-display: flex;
-flex-direction: column;
-
-
-
-}
 section {
     margin-top: 40px;
 }
+
+
 .headshot-containers img {
     width: 30%;
     height: 30%;
     border-radius: 100%;
-    box-shadow: 100% var(--headshot-shadow)
     
     
-
 }
+
 .headshot-containers {
     display:flex;
     justify-content: center;
     margin-top: 30px;
     font-size: 40px;
+   
 
  
    
@@ -79,40 +73,41 @@ main {
 
 .contains-all-pcards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
 
 
 
 
 }
 .container-for-contents-of-each-pcard{
+    display: flex;
 
 
 }
 .img-of-product {
+    display: flex;
+    
 
 }
 .pcard-header{
 
 }
-
-#project1 img{
-    width: 400px;
-
-
+#project-main-img{
+    width: auto;
 }
-#project2 img{
-    width: 400px;
+.small-p-img{
+    width: 365px;
+    height: 500px;
+    border-radius: 10%;
+    display: flex;
+    
 
 
-}
-#project3 img{
-    width: 400px;
 
-
-}
-#project4 img{
-    width: 400px;
 
 
 }
