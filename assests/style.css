@@ -1,19 +1,16 @@
 :root {
     --body-font:  Courier, Rockwell, Cambria, cochin; 
-    --body-bcolor: aqua;
-    --header-bcolor: beige;
-    --header-tcolor: black;
-    --navbar-tcolor: pink;
+    --body-bcolor:  white;
+    --header-bcolor: rgb(167, 155, 155);
+    --header-tcolor: blanchedalmond;
+    --navbar-tcolor: brown;
     --headshot-shadow: light purple;
     --main-tcolor: blue;
-    --main-bcolor: violet;
+    --main-bcolor: rgb(167, 155, 155);
     --project-shadow: light red;
     --footer-bcolor: green;
     --footer-tcolor: red;
-   
-
 }
-
 * {
     box-sizing: border-box;
     font-family: var(--body-font);
@@ -21,10 +18,13 @@
     margin: 0;
 }
 
+
 body{
     background-color: var(--body-bcolor)
 }
 
+
+/* header starts */
 header {
     display: flex;
     align-items: flex-end;
@@ -32,102 +32,112 @@ header {
     font-size: 40px;
     color: var(--header-tcolor);
  }
- 
  li {
     display: inline;
  }
-
- .header {
+ a {
+    color: var(--navbar-tcolor);
+    }
+.header {
     background-color: var(--header-bcolor);
     height: 115px;
+    padding-bottom: 20px;
 }
-
-section {
-    margin-top: 40px;
-}
+/* header ends */
 
 
+/* headshot section begins */
 .headshot-containers img {
     width: 30%;
     height: 30%;
     border-radius: 100%;
-    
-    
-}
-
+    }
 .headshot-containers {
     display:flex;
     justify-content: center;
     margin-top: 30px;
     font-size: 40px;
-   
+}
+p {
+    width: 97%;
+}
 
- 
+
+/* headshot section begins */
+
+
+/* main part beigins */
+
+main {display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bcolor);
+    color: var(--main-tcolor);
+    display: flex;
+
    
 }
 
-main {
-   
-}
-/* rest of the pcards area */
 
+/* main project part begins */
+#project-main-img{
+    width: auto;
+    border-radius: 4%;
+    margin-bottom: 150px;
+}
+
+
+#project-main-img:hover{
+    box-shadow: 20px 20px 20px  brown;
+    width: auto;
+    border-radius: 4%;
+    margin-bottom: 150px;
+    
+}
 .contains-all-pcards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 10%;
     margin-right: 10%;
-    justify-content: space-around;
-
-
-
-
+    align-items: space-between;
 }
-.container-for-contents-of-each-pcard{
-    display: flex;
-
-
-}
-.img-of-product {
-    display: flex;
+.container-for-contents-of-each-pcard:hover{
+    box-shadow: 20px 20px 20px  brown;
+    border-radius: 15%;
+    width: 365px;
+    height: 500px;
     
-
 }
+
 .pcard-header{
+    text-align: center;
+    position: relative;
+    margin: 10px 0 -60px 0;
+    padding: 5px;
+    background-color: blanchedalmond;
+    border: 2px solid ; 
+    border-radius: 15%;
+    font-size: 40px;
+    width: 80%;
+    color: brown;
+}
 
-}
-#project-main-img{
-    width: auto;
-}
+
+
 .small-p-img{
     width: 365px;
     height: 500px;
     border-radius: 10%;
     display: flex;
-    
-
-
-
-
-
+    margin-bottom: 50px;
 }
 
 
-main {
-    background-color: var(--main-bcolor);
-    color: var(--main-tcolor);
-    display: flex;
 
-}
 
-p {
-    width: 97%;
-}
-a {
-    color: var(--navbar-tcolor);
-    
-
-}
 
 footer {
     color: var(--footer-tcolor);
