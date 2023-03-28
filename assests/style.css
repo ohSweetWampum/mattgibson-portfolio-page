@@ -82,10 +82,51 @@ main {display: flex;
 
 
 /* main project part begins */
+
+
+
+
+#relative-box {
+    position: relative;
+    left: 200px;
+  }
+  
+
+
+
+.pcard-header{
+    text-align: center;
+    position: relative;
+    left: 38px;
+    bottom: 30px;
+    margin: 10px 0 -60px 0;
+    padding: 5px;
+    background-color: blanchedalmond;
+    border: 2px solid ; 
+    border-radius: 15%;
+    font-size: 40px;
+    width: 80%;
+    color: brown;
+}
+.pcard-header-main{
+    text-align: center;
+    position: relative;
+    left: 140px;
+    top: 70px;
+    margin: 10px 0 -60px 0;
+    padding: 5px;
+    background-color: blanchedalmond;
+    border: 2px solid ; 
+    border-radius: 15%;
+    font-size: 40px;
+    width: 80%;
+    color: brown;
+}
 #project-main-img{
     width: auto;
     border-radius: 4%;
     margin-bottom: 150px;
+    margin-top: 100px;
 }
 
 
@@ -96,6 +137,9 @@ main {display: flex;
     margin-bottom: 150px;
     
 }
+
+
+
 .contains-all-pcards {
     display: flex;
     flex-direction: row;
@@ -112,21 +156,6 @@ main {display: flex;
     
 }
 
-.pcard-header{
-    text-align: center;
-    position: relative;
-    margin: 10px 0 -60px 0;
-    padding: 5px;
-    background-color: blanchedalmond;
-    border: 2px solid ; 
-    border-radius: 15%;
-    font-size: 40px;
-    width: 80%;
-    color: brown;
-}
-
-
-
 .small-p-img{
     width: 365px;
     height: 500px;
@@ -134,11 +163,6 @@ main {display: flex;
     display: flex;
     margin-bottom: 50px;
 }
-
-
-
-
-
 footer {
     color: var(--footer-tcolor);
     background-color: var(--footer-bcolor);
@@ -150,3 +174,26 @@ footer {
    
 }
 
+
+@media screen and (min-width: 768px) {
+   
+    #project-main-img,
+    .pcard-header-main
+     {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    
+      @media only screen and (max-width: 768px) {
+        #project-main-img
+        .pcard-header-main {
+          max-width: 50%;
+        }
+    }
+    
+   
+  
+    
+
+  
