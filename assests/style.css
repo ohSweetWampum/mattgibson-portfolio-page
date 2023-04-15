@@ -75,7 +75,7 @@ main {display: flex;
     align-items: center;
     background-color: var(--main-bcolor);
     color: var(--main-tcolor);
-    display: flex;
+    /* display: flex; */
 
    
 }
@@ -108,11 +108,17 @@ main {display: flex;
     width: 80%;
     color: brown;
 }
+.img-of-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .pcard-header-main{
     text-align: center;
-    position: relative;
+    /* position: relative;
     left: 140px;
-    top: 70px;
+    top: 70px; */
     margin: 10px 0 -60px 0;
     padding: 5px;
     background-color: blanchedalmond;
@@ -123,16 +129,17 @@ main {display: flex;
     color: brown;
 }
 #project-main-img{
-    width: auto;
+    /* width: 80%; */
     border-radius: 4%;
     margin-bottom: 150px;
     margin-top: 100px;
+    display: block;
 }
 
 
 #project-main-img:hover{
     box-shadow: 20px 20px 20px  brown;
-    width: auto;
+    /* width: auto; */
     border-radius: 4%;
     margin-bottom: 150px;
     
@@ -175,25 +182,42 @@ footer {
 }
 
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
    
     #project-main-img,
     .pcard-header-main
      {
-        max-width: 100%;
-        height: auto;
+        /* max-width: 100%; */
+        /* height: auto;
       }
-    }
+    } / */
     
-      @media only screen and (max-width: 768px) {
-        #project-main-img
+      /* @media only screen and (max-width: 768px) { */
+        /* #project-main-img
         .pcard-header-main {
-          max-width: 50%;
-        }
-    }
+          max-width: 50%; */
+       
     
    
-  
+          @media only screen and (max-width: 768px) {
+            #project-main-img {
+                width: 500px;
+            }
+            .pcard-header-main {
+                width: 500px;
+                font-size: 30px;
+                left: 0;
+            }
+        }
     
-
+        @media only screen and (max-width: 500px) {
+            #project-main-img {
+                width: 250px;
+            }
+            .pcard-header-main {
+                width: 250px;
+                font-size: 30px;
+                left: 0;
+            }
+        }
   
